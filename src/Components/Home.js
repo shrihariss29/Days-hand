@@ -13,6 +13,8 @@ function Home() {
           <li>You can count number of days between two dates.</li>
         </ul>
       </div>
+     <a className='a1' href='https://github.com/shrihariss29/Days-hand'>About this project</a>
+     <a href="shrihariss.vercel.app">About the developer</a>
     </div>
   );
 }
