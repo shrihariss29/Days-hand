@@ -15,7 +15,7 @@ function Navb() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         {showBrand && (
-          <Navbar.Brand className='opname' href="/"><span style={{ color: '#10439f' }}>Day</span> <span style={{ color: 'red' }}>s h</span>
+          <Navbar.Brand className='opname' href="/"><span style={{ color: '#10439f' }}>Day</span><span style={{ color: 'red' }}>s h</span>
           <span style={{ color: '#10439f' }}>and</span></Navbar.Brand>
         )}
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
