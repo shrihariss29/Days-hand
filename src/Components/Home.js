@@ -13,8 +13,8 @@ function Home() {
           <li>You can count number of days between two dates.</li>
         </ul>
       </div>
-     <a className='a1' href='https://github.com/shrihariss29/Days-hand'>About this project</a>
-     <a href="shrihariss.vercel.app">About the developer</a>
+     <a className='a1' href='https://github.com/shrihariss29/Days-hand' target="_blank" rel="noopener noreferrer">About this project</a>
+     <a href="https://shrihariss.vercel.app/" target="_blank" rel="noopener noreferrer">About the developer</a>
     </div>
   );
 }
