@@ -1,0 +1,188 @@
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    justify-content:end;
+    gap:2%;
+    transform: translateY(20px);
+    animation: buttonanimation 2s forwards;
+}
+.btn
+{
+    border-radius: 8%;
+}
+#name
+{
+    font-size: 100px;
+    margin-left: 13%;
+    color: #10439F;
+    animation: buttonanimation 3s forwards;
+    font-family: "Abril Fatface", serif;
+}
+.intro
+{
+    margin-top: 1%;
+    margin-left: 13%;
+    margin-right: 2%;
+    opacity: 0;
+    animation: chillAnimation 2s forwards;
+    font-family: "Jost", sans-serif;
+}
+@keyframes chillAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes buttonanimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
+.op
+{
+    color: blue;
+}
+.entform
+{
+    display: flex;
+    justify-content: center;
+    gap: 1%
+}
+.op
+{
+    color:red;
+}
+.page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    font-family: "REM", sans-serif;
+}
+.opname
+{
+    font-size: 50px;
+    margin-top: 1%;
+    margin-left: 4%;
+    color: #10439f;
+    animation: buttonanimation 3s forwards;
+    font-family: "Abril Fatface", serif;
+}
+input
+{
+    border-radius: 10%;
+    color: #10439F;
+}
+form
+{
+    color: black;
+}
+button
+{
+    margin-top: 10px;
+}
+input[type="date"],
+input[type="number"] {
+  background-color: #296ae1;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+.return
+{
+    margin-top: 5%;
+    margin-left: 85%;
+    margin-bottom: 5%;
+}
+.navale
+{
+    color:#10439F;
+    margin-left: 500px;
+}
+
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.container {
+    text-align:right;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+#name
+{
+    margin-top: 15%;
+    font-size: 150px;
+    margin-left: 13%;
+    color: #10439F;
+    animation: buttonanimation 3s forwards;
+    font-family: "Abril Fatface", serif;
+}
+.intro
+{
+    margin-top: 1%;
+    margin-left: 13%;
+    margin-right: 2%;
+    opacity: 0;
+    font-size: 35px;
+    animation: chillAnimation 2s forwards;
+    font-family: "Jost", sans-serif;
+}
+.intro1
+{
+    font-size:32px;
+}
+.op
+{
+    margin-top: 20%;
+}
+.page
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    font-family: "REM", sans-serif;
+    font-size: 25px;
+}
+input[type="date"],
+input[type="number"] {
+  background-color: #296ae1;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 500px;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+}
