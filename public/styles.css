@@ -47,7 +47,7 @@
 {
     color:#10439f;
     font-weight: 900;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 #name
 {
@@ -192,6 +192,12 @@ a{
     color: #10439F;
     animation: buttonanimation 3s forwards;
     font-family: "Abril Fatface", serif;
+}
+#navele0,#navele1,#navele2,#navele3
+{
+    color:#10439f;
+    font-weight: 900;
+    font-size: 2.5vw;
 }
 .intro
 {
