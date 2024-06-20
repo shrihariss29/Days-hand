@@ -26,7 +26,7 @@ function Count() {
   };
 
   return (
-    <div>
+    <div id="count">
     <div className='page'>
       <h2 className='op'>Count Days</h2>
       <form>
