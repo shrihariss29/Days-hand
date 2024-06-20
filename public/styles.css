@@ -11,6 +11,10 @@
     transform: translateY(20px);
     animation: buttonanimation 2s forwards;
 }
+#add,#count,#home,#subtract
+{
+    animation: buttonanimation 1.5s forwards;
+}
 .btn
 {
     border-radius: 8%;
@@ -39,7 +43,7 @@
     font-weight: 900;
     padding: 2%;
 }
-#navele1,#navele2,#navele3
+#navele0,#navele1,#navele2,#navele3
 {
     color:#10439f;
     font-weight: 900;
@@ -171,6 +175,12 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.btn-dark
+{
+    margin-right:30%;
+    margin-top: 10%;
+    width: 20%;
 }
 @media only screen and (max-width: 1000px)
 {
