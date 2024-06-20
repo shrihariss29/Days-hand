@@ -24,7 +24,7 @@ function Add() {
   };
 
   return (
-    <div>
+    <div id="add">
     <div className='page'>
       <h2 className='op'>Add Days</h2>
       <form>
