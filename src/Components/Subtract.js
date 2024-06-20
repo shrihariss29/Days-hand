@@ -24,7 +24,7 @@ function Subtract() {
   };
 
   return (
-    <div>
+    <div id="subtract">
     <div className='page'>
       <h2 className='op'>Subtract Days</h2>
       <form>
